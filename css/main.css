@@ -1,0 +1,627 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.shoppee_container {
+    /* max-width: 1366px; */
+    margin: auto;
+
+}
+
+.shoppee_offer {
+    background     : var(--cape-palliser-a67744) 0% 0% no-repeat padding-box;
+    background     : #A67744 0% 0% no-repeat padding-box;
+    opacity        : 1;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 40px;
+}
+
+.navbar {
+    background   : #E0E4E7;
+    padding-right: 84px;
+    padding-left : 84px;
+}
+
+.navbar ul li {
+    color: #354E57;
+}
+
+.navbar_one {
+    display    : flex;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.navbar_one ul {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color          : #354E57;
+}
+
+.navbar_left {
+    display       : flex;
+    text-transform: uppercase;
+    font-size     : 12px;
+    padding-right : 362px;
+}
+
+.navbar_left li {
+    padding-right: 47px;
+}
+
+.navbar_sooth {
+    text-align    : left;
+    letter-spacing: 1.6px;
+    color         : #293D45;
+    opacity       : 1;
+    font-size     : 32px;
+    padding-right : 398px;
+}
+
+.navbar_right {
+    display       : flex;
+    text-transform: uppercase;
+    font-size     : 12px;
+}
+
+.navbar_right li {
+    padding-right: 42px;
+}
+
+.navbar_two ul {
+    display        : flex;
+    padding-top    : 25px;
+    list-style     : none;
+    justify-content: center;
+}
+
+.navbar_two ul li {
+    padding-right: 63px;
+}
+
+.hero_banner {
+    background     : #E6E6FA;
+    padding-left   : 140px;
+    padding-top    : 99px;
+    display        : flex;
+    background-size: cover;
+    background     : url("../adobe_images/updated_Header.png");
+}
+
+.lable_new {
+    padding       : 4px;
+    text-align    : left;
+    font          : normal normal 600 12px/14px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    background    : #F7F7F7 0% 0% no-repeat padding-box;
+    opacity       : 1;
+}
+
+.hero_banner_p1 {
+    text-align    : left;
+    font          : normal normal bold 48px/58px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    padding-top   : 14px;
+}
+
+.hero_banner_p2 {
+    text-align    : left;
+    font          : normal normal normal 16px/24px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    padding-top   : 14px;
+}
+
+.hero_banner_button {
+    border        : 1px solid #354E57;
+    opacity       : 1;
+    width         : 173px;
+    height        : 35px;
+    background    : transparent;
+    margin-bottom : 232px;
+    margin-top    : 28px;
+    font          : normal normal bold 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #2E2E22;
+    opacity       : 1;
+}
+
+.hero_banner_two {
+    position: relative;
+    right   : 0px;
+}
+
+.hero_banner_two .plant_rhs {
+    position: absolute;
+    top     : -4rem;
+    left    : 6rem;
+}
+
+.hero_banner_two .plant_lhs {
+    position: absolute;
+    top     : -3rem;
+    left    : -17.8rem;
+}
+
+.hero_banner_two .ezcema_bottle {
+    position: absolute;
+    right   : 11rem;
+    top     : -5rem;
+}
+
+/* Products CSS Starts */
+
+.product_container {
+    background: #EEF3F4 0% 0% no-repeat padding-box;
+    opacity   : 1;
+}
+
+.product_header {
+    text-align: center;
+    border    : 1px solid var(--como-547665);
+    border    : 1px solid #547665;
+    opacity   : 1;
+}
+
+.product_header h4 {
+    text-align    : center;
+    font          : normal normal bold 28px/34px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    padding-top   : 43px;
+}
+
+.product_header h5 {
+    padding-top   : -12px;
+    padding-bottom: 39px;
+    text-align    : center;
+    font          : normal normal normal 16px/20px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+}
+
+.product_titles {
+    display        : flex;
+    justify-content: space-between;
+    padding-left   : 139px;
+    padding-right  : 139px;
+    text-align     : left;
+    font           : normal normal bold 14px/17px Proxima Nova;
+    letter-spacing : 0px;
+    color          : #2E2E22;
+    opacity        : 1;
+    padding-top    : 3rem;
+    padding-bottom : 1.5rem;
+}
+
+.product_images_header {
+    display      : flex;
+    padding-left : 139px;
+    padding-right: 120px;
+}
+
+.product_images_header ul {
+    list-style     : none;
+    display        : flex;
+    justify-content: space-between;
+    padding-right  : 139px;
+    padding-left   : 139px;
+    padding-bottom : 5rem;
+}
+
+.products_image {
+    background: white;
+}
+
+.products {
+    position: relative;
+}
+
+.products_name {
+    padding-top   : 14px;
+    padding-bottom: 3px;
+}
+
+.products_info {
+    padding-bottom: 9px;
+}
+
+.products_rate {
+    padding-bottom: 11px;
+}
+
+.products_lable_new {
+    padding       : 10px;
+    margin        : 12px;
+    text-align    : left;
+    font          : normal normal 600 12px/14px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    background    : #F7F7F7 0% 0% no-repeat padding-box;
+    opacity       : 1;
+    position      : absolute;
+}
+
+.products_button {
+    width        : 251px;
+    height       : 35px;
+    border       : 1px solid #354E57;
+    opacity      : 1;
+    margin-bottom: 111px;
+    background   : transparent;
+}
+
+.products_lable_off {
+    padding       : 10px;
+    margin        : 12px;
+    text-align    : left;
+    font          : normal normal 600 12px/14px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #A67744;
+    background    : #F7F7F7 0% 0% no-repeat padding-box;
+    opacity       : 1;
+    position      : absolute;
+}
+
+/* Projects CSS Ends */
+
+.teaser_banner {
+    background  : #547665;
+    padding-left: 140px;
+    padding-top : 221px;
+    display     : flex;
+    position    : relative;
+    height      : 731px;
+}
+
+.teaser_banner_p1 {
+    text-align    : left;
+    font          : normal normal bold 48px/58px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #FFFFFF;
+    opacity       : 1;
+    padding-top   : 14px;
+}
+
+.teaser_banner_p2 {
+    text-align    : left;
+    font          : normal normal normal 16px/24px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #EEF2F4;
+    opacity       : 1;
+    padding-top   : 23px;
+}
+
+.teaser_banner_button {
+    border        : 1px solid #FFFFFF;
+    opacity       : 1;
+    top           : 2117px;
+    left          : 139px;
+    width         : 176px;
+    height        : 40px;
+    margin-top    : 55px;
+    margin-bottom : 215px;
+    background    : transparent;
+    font          : normal normal bold 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #F7F5E6;
+    opacity       : 1;
+}
+
+.teaser_banner_two {
+    position: absolute;
+    top     : 0px;
+    right   : 0px;
+}
+
+.products_button .fa {
+    padding-right: 11px;
+}
+
+.hand_teaser_banner {
+    background: #C6B9B6 0% 0% no-repeat padding-box;
+    opacity   : 1;
+    display   : flex;
+}
+
+.hand_teaser_banner_one {
+    top    : 3757px;
+    left   : 0px;
+    width  : 683px;
+    height : 700px;
+    opacity: 1;
+}
+
+.hand_teaser_banner_two {
+    padding-top  : 253px;
+    padding-left : 105px;
+    padding-right: 88px;
+}
+
+.hand_teaser_banner_p1 {
+    color         : var(--white-ffffff);
+    text-align    : left;
+    font          : normal normal bold 40px/60px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #FFFFFF;
+    opacity       : 1;
+    padding-bottom: 23px;
+}
+
+.hand_teaser_banner_p2 {
+    color         : var(--rangitoto-2e2e22);
+    text-align    : left;
+    font          : normal normal normal 16px/24px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #2E2E22;
+    opacity       : 1;
+    padding-bottom: 42px;
+}
+
+.hand_teaser_banner_button {
+    top           : 4192px;
+    left          : 788px;
+    width         : 176px;
+    height        : 40px;
+    border        : 1px solid #956A53;
+    opacity       : 1;
+    background    : transparent;
+    font          : normal normal bold 14px/17px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #2E2E22;
+    opacity       : 1;
+}
+
+
+.image_tiles_header {
+    text-align: center;
+    opacity   : 1;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+
+.image_tiles_header h4 {
+    text-align    : center;
+    font          : normal normal bold 28px/34px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    padding-top   : 43px;
+}
+
+.image_tiles_header h5 {
+    padding-top   : -12px;
+    padding-bottom: 39px;
+    text-align    : center;
+    font          : normal normal normal 16px/20px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+}
+
+.feature_banner {
+    background     : #EEF2F4;
+    margin-top     : 191px;
+    padding-top    : 59px;
+    padding-bottom : 60px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-evenly;
+    text-align     : center;
+}
+
+.feature_banner_icon {
+    padding-bottom: 22.13px;
+}
+
+.feature_banner p {
+    padding-bottom: 12px;
+}
+
+.newsletter {
+    background              : #FFFFFF 0% 0% no-repeat padding-box;
+    border                  : 1px solid #354E57;
+    opacity                 : 1;
+    display                 : flex;
+    align-items             : center;
+    /* justify-content      : space-evenly; */
+    padding-top             : 35px;
+    padding-bottom          : 35px;
+    padding-left            : 137px;
+}
+
+.newsletter h3 {
+    font          : normal normal bold 32px/38px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    margin-right  : 32px;
+}
+
+.newsletter span {
+    border      : 1px solid var(--mischka-d7ccdd);
+    border      : 1px solid #D7CCDD;
+    opacity     : 1;
+    top         : 6492px;
+    left        : 372px;
+    width       : 0px;
+    height      : 78px;
+    margin-right: 39.5px;
+}
+
+.newsletter p {
+    font          : normal normal normal 16px/20px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #354E57;
+    opacity       : 1;
+    margin-right  : 114px;
+}
+
+.newsletter input {
+    top   : 6513px;
+    left  : 829px;
+    width : 282px;
+    height: 40px;
+    border: 1px solid #956A53;
+}
+
+.newsletter_btn {
+    padding-left: 114px;
+}
+
+.newsletter button {
+    top       : 6513px;
+    left      : 829px;
+    width     : 117px;
+    height    : 40px;
+    border    : 1px solid #956A53;
+    background: #956A53;
+    color     : white;
+    opacity   : 1;
+}
+
+.footer {
+    background : #354E57 0% 0% no-repeat padding-box;
+    border     : 1px solid #707070;
+    opacity    : 1;
+    padding-top: 195px;
+    height     : 736px;
+}
+
+.footer_top {
+    display: flex;
+}
+
+.footer_shop {
+    padding-right: 100px;
+}
+
+.footer_about {
+    padding-right: 100px;
+}
+
+.footer li {
+    list-style    : none;
+    padding-bottom: 10px;
+
+}
+
+.footer li a {
+    color: #FFFFFF;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    margin-bottom : 22px;
+    font          : normal normal 600 16px/19px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #FFFFFF;
+    text-transform: uppercase;
+    opacity       : 1;
+}
+
+.footer_sooth {
+    padding-left : 139px;
+    padding-right: 196px;
+}
+
+.footer_sooth h2 {
+    font-size     : 54px;
+    letter-spacing: 2.7px;
+    color         : #FFFFFF;
+    opacity       : 1;
+}
+
+.footer_sooth p {
+    font          : normal normal normal 16px/20px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #FFFFFF;
+    opacity       : 1;
+    margin-top    : 15px;
+}
+
+.footer_btn {
+    padding-top: 36px;
+}
+
+.footer_btn input {
+    top       : 6916px;
+    left      : 137px;
+    width     : 221px;
+    height    : 40px;
+    background: transparent;
+    border    : 1px solid #FFFFFF;
+    opacity   : 1;
+}
+
+.footer_btn ::placeholder {
+    padding-left: 16px;
+    color       : #FFFFFF;
+}
+
+.footer_btn button {
+    top       : 6916px;
+    left      : 137px;
+    width     : 117px;
+    height    : 40px;
+    background: transparent;
+    border    : 1px solid #FFFFFF;
+    opacity   : 1;
+    color     : #FFFFFF;
+}
+
+.hr_line {
+    padding-left : 8.594rem;
+    padding-right: 8.531rem;
+    padding-top  : 7.438rem;
+}
+
+.footer_bottom {
+    background   : #354E57 0% 0% no-repeat padding-box;
+    opacity      : 1;
+    padding-left : 8.688rem;
+    padding-right: 8.563rem;
+}
+
+.media_icons_links {
+    float          : right;
+    display        : flex;
+    list-style-type: none;
+    padding-left   : 0px;
+}
+
+.media_icons_links i {
+    font-size  : 21px;
+    margin-left: 26px;
+    color      : white;
+}
+
+.footer_bottom h4 {
+    padding-top   : 2.688rem;
+    font          : normal normal normal 16px/20px Proxima Nova;
+    letter-spacing: 0px;
+    color         : #FFFFFF;
+    text-transform: uppercase;
+    opacity       : 1;
+}
+
+.footer_bottom .policy_terms {
+    padding-top: 1.125rem;
+
+}
+
+.footer_bottom .policy_terms a {
+    color: white;
+}

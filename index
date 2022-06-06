@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UI-Academy-Adobe</title>
+        <link rel="stylesheet" href="css/adobe-grid.css">
+        <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+        <div class="product_container">
+                <div class='product_header'>
+                        <h4>Sollutions for All Skin Health</h4>
+                        <h5>Explore our innovative skincare products</h5>
+                </div>
+                <div class='product_titles'>
+                        <div>Most Popular</div>
+                        <div>Shop All Products</div>
+                </div>
+                <div class='product_images_header'>
+                        <div class="aem-Grid aem-Grid--12">
+                                <div class="aem-GridColumn aem-GridColumn--default--3">
+                                        <img src="adobe_images/Cream1-1.png" alt="Image-1" />
+                                </div>
+                                <div class="aem-GridColumn aem-GridColumn--default--3">
+                                        <img src="adobe_images/ezcema-1.png" alt="Image-2" />
+                                </div>
+                                <div class="aem-GridColumn aem-GridColumn--default--3">
+                                        <img src="adobe_images/vitiligio.png" alt="Image-3" />
+                                </div>
+                                <div class="aem-GridColumn aem-GridColumn--default--3">
+                                        <img src="adobe_images/ezcema.png" alt="Image-4" />
+                                </div>
+                        </div>
+                </div>
+        </div>
+</body>
+
+</html>
